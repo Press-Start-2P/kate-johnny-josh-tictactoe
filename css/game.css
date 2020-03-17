@@ -24,3 +24,11 @@ img {
     box-sizing: border-box;
     object-fit: fill;
 }
+
+
+/* Stuff Kate added */
+
+    /* Centers the Xs */
+    img{
+        margin-left: 83px ;
+    }
