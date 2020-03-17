@@ -3,49 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Tic-Tac-Toe</title>
-    <style>
-        h1 {
-            text-align: center;
-        }
-        td {
-            box-sizing: border-box;
-            width: 25vh;
-            height: 25vh;
-        }
-        table {
-            margin: 5px auto;
-        }
-        .vert {
-            border-left: 2px solid black;
-            border-right: 2px solid black;
-        }
-        .hori {
-            border-top: 2px solid black;
-            border-bottom: 2px solid black;
-        }
-        td:hover {
-            border: red solid 2px;
-        }
-    </style>
+
+    <link rel="stylesheet" href="css/game.css">
 </head>
 <body>
 <h1>Tic Tac Toe</h1>
 <table>
     <tr>
-        <td></td>
-        <td class="vert"></td>
-        <td></td>
+        <td id="1" class="col1 row1"><img src="" alt=""></td>
+        <td id="2" class="col1 row2 vert"><img src="" alt=""></td>
+        <td id="3" class="col1 row3"><img src="" alt=""></td>
     </tr>
     <tr>
-        <td class="hori"></td>
-        <td class="vert hori"></td>
-        <td class="hori"></td>
+        <td id="4" class="col2 row1 hori"><img src="" alt=""></td>
+        <td id="5" class="col2 row2 vert hori"><img src="" alt=""></td>
+        <td id="6" class="col2 row3 hori"><img src="" alt=""></td>
     </tr>
     <tr>
-        <td></td>
-        <td class="vert"></td>
-        <td></td>
+        <td id="7" class="col3 row1"><img src="" alt=""></td>
+        <td id="8" class="col3 row2 vert"><img src="" alt=""></td>
+        <td id="9" class="col3 row3"><img src="" alt=""></td>
     </tr>
 </table>
+
+<script src="js/jquery-2.2.4.js"></script>
+<script src="js/game.js"></script>
 </body>
 </html>

@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+td {
+    box-sizing: border-box;
+    width: 25vh;
+    height: 25vh;
+}
+table {
+    margin: 5px auto;
+}
+.vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+td:hover {
+    border: red solid 2px;
+}
+img {
+    box-sizing: border-box;
+    object-fit: fill;
+}
